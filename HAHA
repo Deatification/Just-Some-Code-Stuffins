@@ -1,0 +1,328 @@
+city = "Bleh"
+price = 4.0
+high_score = 4
+is_having_fun = True
+
+
+new_line = 'hello \nthere'
+print(new_line)
+
+
+str = "hel\x08lo"
+print(str)
+
+
+message = 'bleh \nbleh'
+print(message)
+
+
+mtn = '/\\/\\/\\'
+print(mtn)
+
+
+q = 'hi \'bleh\''
+print(q)
+
+
+str1 = 'your'
+str2 = 'face'
+print(str1 + ' ' + str2)
+
+
+name = 'Kaleb'
+name += ' Ames'
+print(name)
+
+
+guess=8
+print(f'your guess of {guess} was wrong')
+
+
+name ='kaleb'
+name[0]
+
+
+decimal = 12.12121212
+integer = int(decimal)
+
+
+num = 12
+type(num)
+class 'int'
+num = float(num)
+type(num)
+
+
+Kaleb = input("enter name here:")
+
+
+num = rndint(1,1000)
+if num % 2 is == 0:
+    print(f"{num} is even"
+else:
+    print(f"{num} is odd")
+
+
+ name = "Ralpf Wiggum"
+ if name == "Bart simpson":
+     print("Wrong!!")
+ elif name == "Homer Simpson":
+     print("WORNG!!")
+ else:
+     print("Geez you are stupid")
+
+
+ from random import randint
+ choice = randint(1,10)
+ answer = input("guess a number between 1 and 10  ")
+ answer = int(answer)
+ if choice == answer:
+     print(f"Correct!!! YAY!!!, {choice} was the number and you guessed {answer}")
+ else:
+     print(f"Sorry you guessed {answer} and the number was {choice}")
+
+
+from random import randint
+num = randint(1,1000)
+if num % 2 == 0:
+    print(f"{num} is even")
+else:
+    print(f"{num} is odd")
+
+
+print("how many kms did you bike today?????")
+kms = input()
+miles = float(kms)/1.60934
+miles = round(miles,2)
+print(f"you said {miles} miles today")
+
+
+print("how many kms did you bike today?????")
+frn = input()
+cel = float(frn)-32 * 0.5556
+cel = round(cel,2)
+print(f"you said {cel} degrees today")
+
+
+print("how many mi did you drive today?????")
+mi = input()
+print("how much gas did you use?????")
+gas = input()
+mpg = float(mi)/float(gas)
+print(f"you are getting {mpg}mpg")
+
+
+anm = input("Whats your fav animal   ")
+if anm:
+    print(anm + " is my fav too")
+else:
+    print("You didnt say anything!!!")
+price = 10
+
+
+print(f"tickets are {price} dollars if you are younger than three you grt in free if you are older that fifty or a student (5-18) you get in half price" )
+#less than or equal to gets if free
+#over Sixty half price
+#between 4 and 12 3 dollar discount price
+#between student 13-18 2 dollar discount
+age = input("How old are you?   ")
+age = int(age)
+if age <= 3:
+    price = (price - price)
+    print(f"you get in for {price}")
+elif age >= 60:
+    price = (price / 2)
+    print(f"you get in for {price}")
+elif age >= 4 and age <= 12:
+    price = (price - 3)
+    print(f"you get in for {price}")
+elif age >= 13 and age <= 18:
+    price = (price - 2)
+    print(f"you get in for {price}")
+else:
+    print(f"you get in for {price}")
+
+
+age = input("how old are you??????"    )
+age = int(age)
+if age >= 18 and age <21:
+    print("you can go in but not drink")
+
+elif age >= 21 and age <= 100:
+    print("you can go in and get drunk")
+elif age >= 100 and age <= 150:
+    print("How are you still alive")
+elif age >= 150:
+    print("Bru your not alive do you expect me to believe that")
+else:
+    print("you cant come in kid")
+
+    #Edited
+age = input("how old are you??????"    )
+if age != "":
+    age = int(age)
+    if age >= 18 and age <21:
+        print("you can go in but not drink")
+
+    elif age >= 21 and age <= 100:
+        print("you can go in and get drunk")
+    elif age >= 100 and age <= 150:
+        print("How are you still alive")
+    elif age >= 150:
+        print("Bru your not alive do you expect me to believe that")
+    else:
+        print("you cant come in kid")
+else:
+    print("ENTER YOUR AGE")
+
+
+from random import randint
+y = randint(-100, 100)
+while y == 0:
+    y = randint(-100, 100)
+print(y)
+x = randint(-100, 100)
+while x == 0:
+    x = randint(-100, 100)
+print(x)
+if x >= 1 and y >= 1:
+    print("Both X and Y are positive")
+elif x <= -1 and y <= -1:
+    print("Both X and Y are negative")
+elif x >= 1 and y <= -1:
+    print("x is negitive and y is positive")
+elif x <= -1 and y >= 1:
+    print("x is positive and y is negitive")
+
+
+infnum = 1
+runLoop = True
+while runLoop:
+    print(infnum)
+    infnum = infnum +1
+
+
+from random import randint
+runLoop = True
+while runLoop:
+    x = randint(1,10000000000000000000000000000000000000000000000000000000000000000000)
+    print(x)
+
+
+print("rock")
+print("paper")
+print("scissors")
+player1 = input("player 1 make your move     ").lower()
+player2 = input("player 2 make your move     ").lower()
+if player1 == player2:
+    print("tie")
+elif player1 == "rock":
+    if player2 == "scissors":
+        print("player one wins")
+    elif player2 == "paper":
+        print("player two wins")
+elif player1 == "scissors":
+    if player2 == "rock":
+        print("player two wins")
+    elif player2 == "paper":
+        print("player two wins")
+elif player1 == "paper":
+    if player2 == "rock":
+        print("player one wins")
+    elif player2 == "scissors":
+        print("player two wins")
+else:
+    print("Error:404")
+
+#modified
+
+
+print("rock")
+print("paper")
+print("scissors")
+player1 = input("player 1 make your move     ").lower()
+print("no cheating!!!!!!!!!!!!!!!!!\n" * 1000)
+player2 = input("player 2 make your move     ").lower()
+if player1 == player2:
+    print("tie")
+elif player1 == "rock":
+    if player2 == "scissors":
+        print("player one wins")
+    elif player2 == "paper":
+        print("player two wins")
+elif player1 == "scissors":
+    if player2 == "rock":
+        print("player two wins")
+    elif player2 == "paper":
+        print("player two wins")
+elif player1 == "paper":
+    if player2 == "rock":
+        print("player one wins")
+    elif player2 == "scissors":
+        print("player two wins")
+else:
+    print("Error:404")
+
+
+#Play rock paper scissors against computer
+
+
+
+from random import randint
+comp = randint(0, 2)
+if comp == 0:
+    player1 = "paper"
+elif comp == 1:
+    player1 = "paper"
+else:
+    player1 = "scissors"
+player2 = input("rock paper or scissors       ").lower()
+if player1 == player2:
+    print("computer played " + player1)
+    print("tie")
+elif player1 == "rock":
+    if player2 == "scissors":
+        print("compufor x in range(1, 9):
+    print(x)ter played " + player1)
+        print("you win")
+    elif player2 == "paper":
+        print("computer played " + player1)
+        print("computer win")
+elif player1 == "scissors":
+    if player2 == "rock":
+        print("computer played " + player1)
+        print("computer win")
+    elif player2 == "paper":
+        print("computer played " + player1)
+        print("computer win")
+elif player1 == "paper":
+    if player2 == "rock":
+        print("computer played " + player1)
+        print("you win")
+    elif player2 == "scissors":
+        print("computer played " + player1)
+        print("computer win")
+else:
+    print("Error:404")
+
+
+#For Loop Ex
+
+
+for x in range(1, 9):
+    print(x)
+
+
+nums = range(100, 25, -4)
+print(list(nums))
+
+
+x = 0
+for y in range(10, 21):
+    if y % 2 == 1:
+        x += y
+print(x)
+
+x = int(input("How many"))
+for y in range(x):
+    print("NOICE")

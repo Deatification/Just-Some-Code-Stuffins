@@ -71,7 +71,7 @@ else:
  else:
      print("Geez you are stupid")
 
-
+print("\U0001f600", end = "")
  from random import randint
  choice = randint(1,10)
  answer = input("guess a number between 1 and 10  ")
@@ -343,3 +343,6 @@ while msg != "illnevertell":
     print("wrong")
     msg = input("whats the password       ")
 print(f"alright go in   ")
+
+
+print("\U0001f600", end = "")
